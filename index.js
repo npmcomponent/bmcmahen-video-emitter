@@ -11,7 +11,7 @@ function VideoEmitter(video, markers){
 
 module.exports = VideoEmitter;
 
-Emitter(VideoEmitter);
+Emitter(VideoEmitter.prototype);
 
 VideoEmitter.prototype.bind = function(){
   this.events = events(this.video, this);
