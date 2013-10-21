@@ -1,0 +1,16 @@
+{
+  "name": "video-emitter",
+  "repo": "bmcmahen/video-emitter",
+  "description": "emit an event when playback reaches specified points",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/emitter": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
