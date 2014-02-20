@@ -1,5 +1,5 @@
-var Emitter = require('emitter');
-var events = require('events');
+var Emitter = require('component-emitter');
+var events = require('component-events');
 
 function VideoEmitter(video, markers){
   if (!(this instanceof VideoEmitter))
